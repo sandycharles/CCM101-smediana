@@ -30,3 +30,22 @@
 
 For a student or beginner exploring cloud computing, AWS is also a practical choice because its large ecosystem provides many learning resources and opportunities to gain experience with commonly used cloud technologies. However, the best provider ultimately depends on the organization's requirements, budget, existing technology stack, and specific workload.
 
+
+## Checkpoint 5 – Service-Matching Table
+
+| Service Category | AWS | Microsoft Azure | Google Cloud Platform |
+|---|---|---|---|
+| Virtual Machine | EC2 (Elastic Compute Cloud) | Azure Virtual Machines | Compute Engine |
+| Object Storage | S3 (Simple Storage Service) | Blob Storage | Cloud Storage |
+| Identity Management | IAM (Identity and Access Management) | Microsoft Entra ID (formerly Azure AD) | Cloud IAM |
+| SQL Database | RDS (Relational Database Service) | Azure SQL Database | Cloud SQL |
+| Kubernetes | EKS (Elastic Kubernetes Service) | AKS (Azure Kubernetes Service) | GKE (Google Kubernetes Engine) |
+
+### Service Comparison Summary
+
+The three major cloud providers offer equivalent services across the most common cloud computing categories. **AWS EC2, Azure Virtual Machines, and Google Compute Engine** provide virtual computing resources, while **Amazon S3, Azure Blob Storage, and Google Cloud Storage** provide scalable object storage.
+
+For identity management, AWS uses **IAM**, Azure uses **Microsoft Entra ID**, and Google Cloud uses **Cloud IAM**. For relational SQL databases, the equivalent services are **Amazon RDS, Azure SQL Database, and Cloud SQL**. For container orchestration, **Amazon EKS, Azure AKS, and Google GKE** provide managed Kubernetes services that simplify the deployment and management of containerized applications.
+
+Overall, the services are similar in purpose, but each provider has different features, pricing models, integrations, and strengths. The best choice depends on the organization's existing technology environment, workload requirements, budget, and preferred cloud ecosystem.
+

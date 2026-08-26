@@ -70,3 +70,21 @@ AWS is a strong choice for a global e-commerce company because it provides exten
 3. **Amazon CloudFront** – provides fast global content delivery for websites, images, videos, and other e-commerce assets.
 4. **Amazon Aurora Global Database** – provides a globally distributed relational database architecture suitable for applications requiring high availability and low-latency access.
 
+
+## Checkpoint 6 – Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | AWS offers flexible pay-as-you-go pricing, introductory free-tier options, and a broad service catalog. These features allow a small team to control costs while having room to scale as the business grows. |
+| Enterprise Organization | AWS | AWS provides a mature global infrastructure, extensive enterprise services, and a broad range of security and compliance capabilities. Its large ecosystem makes it suitable for organizations with complex and large-scale workloads. |
+| Microsoft Environment | Azure | Azure provides strong native integration with Microsoft Entra ID, Microsoft 365, Windows Server, SQL Server, and other Microsoft technologies. This reduces migration complexity for organizations already using Microsoft's ecosystem. |
+| AI / Machine Learning | GCP | Google Cloud provides specialized AI and ML infrastructure, including TPUs, along with Vertex AI for developing, training, and deploying machine learning models. Its strong background in AI research makes it a compelling choice for ML-heavy workloads. |
+| Kubernetes Deployment | GCP | Google originally developed Kubernetes, and Google Kubernetes Engine (GKE) provides a mature managed Kubernetes platform. GKE offers integrated tools for deploying, managing, monitoring, and scaling containerized applications. |
+| Global Web Application | AWS | AWS provides a large global infrastructure and services such as Amazon CloudFront, Elastic Load Balancing, and Amazon EC2 Auto Scaling. These services help deliver web applications with low latency, high availability, and the ability to handle traffic spikes. |
+
+### Decision Summary
+
+The decision matrix shows that there is no single cloud provider that is the best choice for every business requirement. **AWS** is a strong all-around option for startups, enterprises, and globally distributed applications because of its broad service selection and mature ecosystem. **Azure** is particularly suitable for organizations already invested in Microsoft technologies, while **GCP** stands out for artificial intelligence, machine learning, and Kubernetes workloads.
+
+Organizations should select a cloud provider based on their specific requirements, existing technology environment, budget, technical expertise, security needs, and expected growth.
+

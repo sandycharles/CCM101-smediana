@@ -1,64 +1,72 @@
 # Client Recommendations
 
 ## Client A – Startup Company
+
 **Scenario:** Launching a new mobile application, limited budget, expects rapid growth.
 
 **Recommended Platform:** AWS
 
 **Justification:**
-[Write 3–5 sentences. Talking points: AWS offers a generous free tier and pay-as-you-go pricing that suits limited startup budgets. Its broad service catalog and auto-scaling capabilities mean the startup won't need to migrate providers as it grows. AWS also has the largest developer community and documentation base, which helps small teams move fast without heavy vendor support.]
+
+AWS is a good choice for a startup because its pay-as-you-go pricing model allows the company to use cloud resources without making a large upfront investment in hardware. AWS also provides services such as AWS Amplify and AWS Lambda that can help a small development team build and deploy applications quickly. Its auto-scaling capabilities allow the startup to increase resources as the number of users grows. In addition, AWS has a large ecosystem, extensive documentation, and many developer resources that can help the company solve technical problems efficiently.
 
 **Services they could use:**
-1. **AWS Amplify** – for fast mobile app backend development
-2. **Amazon EC2 / AWS Lambda** – for scalable compute (Lambda especially for pay-per-use, budget-friendly serverless)
-3. **Amazon DynamoDB** – for a scalable NoSQL database that grows with user base
-4. **Amazon S3** – for storing app assets/media at low cost
+1. **AWS Amplify** – for quickly developing, hosting, and managing the backend of a mobile application.
+2. **Amazon EC2 / AWS Lambda** – for scalable computing; Lambda is especially useful for serverless, event-driven workloads with pay-per-use pricing.
+3. **Amazon DynamoDB** – for a scalable NoSQL database that can handle growing application traffic.
+4. **Amazon S3** – for storing application assets, images, videos, backups, and other files at scalable storage capacity.
 
 ---
 
 ## Client B – University
+
 **Scenario:** Already uses Windows Server, Microsoft 365, and Active Directory. Wants to migrate some services to the cloud.
 
 **Recommended Platform:** Microsoft Azure
 
 **Justification:**
-[Write 3–5 sentences. Talking points: Azure offers native, seamless integration with Microsoft 365 and Active Directory (via Microsoft Entra ID), meaning the university can extend its existing identity and access setup to the cloud with minimal rework. Azure also supports hybrid cloud scenarios well through Azure Arc and Azure AD Connect, letting the university migrate gradually instead of all at once. Educational institutions also often qualify for Microsoft's academic licensing discounts.]
+
+Microsoft Azure is the best fit for the university because it integrates closely with the Microsoft technologies the institution already uses. Microsoft Entra ID can extend identity and access management to cloud applications while working with existing Microsoft environments. Azure also supports hybrid-cloud deployments, allowing the university to migrate workloads gradually instead of moving everything to the cloud at once. Services such as Azure Virtual Machines and Azure Virtual Desktop can also help the university move Windows-based applications and provide secure remote access to students and faculty.
 
 **Services they could use:**
-1. **Microsoft Entra ID (Azure AD)** – extends existing on-prem Active Directory to the cloud
-2. **Azure Virtual Machines** – to migrate Windows Server workloads directly
-3. **Azure Virtual Desktop** – for remote student/faculty access to university applications
-4. **Azure Files** – for shared file storage compatible with existing Windows environments
+1. **Microsoft Entra ID** – for cloud-based identity and access management and integration with existing Microsoft environments.
+2. **Azure Virtual Machines** – for migrating and running existing Windows Server workloads in the cloud.
+3. **Azure Virtual Desktop** – for providing students, faculty, and staff with remote access to university applications and desktops.
+4. **Azure Files** – for managed file shares that work well with Windows-based environments.
 
 ---
 
 ## Client C – AI Research Company
+
 **Scenario:** Develops AI and Machine Learning applications requiring high-performance computing.
 
 **Recommended Platform:** Google Cloud Platform (GCP)
 
 **Justification:**
-[Write 3–5 sentences. Talking points: GCP is widely regarded as the strongest platform for AI/ML workloads, offering purpose-built infrastructure like TPUs (Tensor Processing Units) that AWS and Azure don't have equivalents for. Its Vertex AI platform streamlines the ML lifecycle from training to deployment. GCP also originated Kubernetes, making GKE the most mature option for orchestrating containerized, high-performance research workloads.]
+
+Google Cloud is a strong choice for an AI research company because it provides specialized infrastructure and services designed for artificial intelligence and machine learning workloads. Vertex AI provides tools for building, training, evaluating, and deploying machine learning models. Google Cloud also offers access to GPUs and Google's Tensor Processing Units (TPUs), which can provide high-performance acceleration for demanding AI workloads. In addition, Google Kubernetes Engine (GKE) is well suited for managing containerized research workloads at scale.
 
 **Services they could use:**
-1. **Vertex AI** – end-to-end platform for building, training, and deploying ML models
-2. **Compute Engine with TPUs/GPUs** – high-performance computing for training large models
-3. **Google Kubernetes Engine (GKE)** – for orchestrating containerized research workloads at scale
-4. **BigQuery** – for large-scale data analysis feeding into ML pipelines
+1. **Vertex AI** – for building, training, evaluating, and deploying machine learning models.
+2. **Compute Engine with GPUs/TPUs** – for high-performance computing and training large AI models.
+3. **Google Kubernetes Engine (GKE)** – for orchestrating and scaling containerized AI and research workloads.
+4. **BigQuery** – for analyzing large datasets that can be used in AI and machine learning pipelines.
 
 ---
 
 ## Client D – Global E-Commerce Company
+
 **Scenario:** Multinational online shopping company, needs highly available infrastructure with automatic scaling.
 
 **Recommended Platform:** AWS
 
 **Justification:**
-[Write 3–5 sentences. Talking points: AWS has the largest global infrastructure footprint of the three providers, which matters directly for a multinational company needing low latency worldwide. Its auto-scaling and load-balancing services are mature and battle-tested at massive scale (Amazon's own retail business runs on it). AWS also offers strong CDN (CloudFront) and global database replication options suited to e-commerce traffic spikes during sales events.]
+
+AWS is a strong choice for a global e-commerce company because it provides extensive worldwide infrastructure and services designed for highly available and scalable applications. Amazon EC2 Auto Scaling can automatically adjust computing resources according to changes in customer demand, which is especially useful during major sales and seasonal traffic spikes. Elastic Load Balancing can distribute incoming traffic across multiple resources, while Amazon CloudFront can deliver website content quickly to customers around the world. AWS also provides globally distributed database capabilities that can support reliable e-commerce applications and large-scale transactions.
 
 **Services they could use:**
-1. **Amazon EC2 Auto Scaling** – automatically adjusts compute capacity based on demand
-2. **Elastic Load Balancing (ELB)** – distributes traffic across regions for high availability
-3. **Amazon CloudFront** – CDN for fast global content delivery
-4. **Amazon Aurora (Global Database)** – highly available, globally distributed relational database
+1. **Amazon EC2 Auto Scaling** – automatically adjusts computing capacity based on application demand.
+2. **Elastic Load Balancing (ELB)** – distributes incoming application traffic across multiple servers and resources to improve availability.
+3. **Amazon CloudFront** – provides fast global content delivery for websites, images, videos, and other e-commerce assets.
+4. **Amazon Aurora Global Database** – provides a globally distributed relational database architecture suitable for applications requiring high availability and low-latency access.
 

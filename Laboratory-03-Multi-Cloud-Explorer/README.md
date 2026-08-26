@@ -35,13 +35,17 @@ Given the small footprint of this server (1 vCPU, ~2GB RAM, ~19GB disk), it maps
 ### Terminal Evidence
 
 **Operating System check:**
+
 ![OS screenshot](./screenshots/os-screenshot.png)
 
 **CPU information:**
+
 ![CPU screenshot](./screenshots/cpu-screenshot.png)
 
 **Memory information:**
+
 ![Memory screenshot](./screenshots/memory-screenshot.png)
 
 **Disk space:**
+
 ![Disk screenshot](./screenshots/disk-screenshot.png)

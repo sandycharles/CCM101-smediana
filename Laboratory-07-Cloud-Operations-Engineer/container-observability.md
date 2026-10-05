@@ -10,5 +10,5 @@ Application logs record every request along with its status code, so they show e
 ## Container Metrics (docker stats)
 
 - Container: client-website
-- CPU Usage: CPU_VALUE
-- Memory Usage: MEM_VALUE
+- CPU Usage: 0.00%
+- Memory Usage: 2.738MiB

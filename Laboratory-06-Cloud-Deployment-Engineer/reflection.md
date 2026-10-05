@@ -1,4 +1,4 @@
-# Mission 6 Reflection
+# Reflection
 
 **1. How does writing a docker-compose.yml file make a cloud engineer's job easier compared to manually typing commands?**
 

@@ -31,9 +31,3 @@ In this mission, I deployed a private cloud storage system using Nextcloud and M
 - Deploying and tearing down a stack with Docker Compose
 - Understanding how services find each other by name on a shared network
 - Documenting infrastructure in Markdown
-
-## Screenshots
-
-- `screenshots/compose-deployment.png`
-- `screenshots/nextcloud-web.png`
-- `screenshots/compose-teardown.png`

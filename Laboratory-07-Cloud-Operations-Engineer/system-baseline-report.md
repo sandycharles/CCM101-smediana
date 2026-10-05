@@ -1,9 +1,24 @@
 # System Baseline Report
 
+## Host Resources
+
 | Resource | Value |
 |---|---|
 | Total RAM | 1.9 GiB |
 | Root (/) storage capacity | 19 GB |
+
+## Memory Snapshot (free -h)
+
+- Used: 423 MiB
+- Free: 1.1 GiB
+- Available: 1.4 GiB
+
+## Disk Snapshot (df -h)
+
+- Filesystem: /dev/vda1
+- Size: 19 GB
+- Used: 5.4 GB (30%)
+- Available: 13 GB
 
 ## Why Disk Space Matters Before a Traffic Surge
 

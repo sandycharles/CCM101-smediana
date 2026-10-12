@@ -35,9 +35,3 @@ git push
 - Scheduling automated tasks with cron and reading crontab syntax
 - Documenting technical work in Markdown
 - Managing a project with Git and GitHub
-
-## Files in this Folder
-- `automation-research.md`
-- `backup-script-guide.md`
-- `reflection.md`
-- `screenshots/`

@@ -74,12 +74,9 @@ docker compose ps
 
 ## Environment Note
 
-The virtual machine part of the project (hypervisor and Ubuntu Server ISO) was done on [FILL IN: VirtualBox / VMware on my laptop]. Killercoda was used as a browser-based Linux sandbox to rehearse and verify the Docker stack, firewall, and automation before the live defense.
+The Docker stack, firewall, and automation were tested on a Killercoda Ubuntu sandbox. The hypervisor and Ubuntu Server VM design is shown in `architecture-diagram.png`.
 
 ## AI Usage Disclosure
 
 I used an AI assistant (Claude) to help brainstorm the project structure and clarify commands. I reviewed, tested, and can explain each configuration, and the final reflection is written in my own words.
 
-## Screenshots
-
-[FILL IN: add screenshots of docker compose ps, WordPress running, ufw status, crontab -l, and a successful backup]
